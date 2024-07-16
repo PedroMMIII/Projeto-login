@@ -10,18 +10,19 @@
     section#login 
     {
         width: 80vw;
+        height: 260px;
     }    
     div#img 
     {
         background-image: url(../imagens/Tablet.jpg);
         float: left;
-        width: 40%;
+        width: 30%;
         height: 100%;
     }
     div#formulario 
     {
         float: right;
-        width: 60%;
+        width: 70%;
         
     }
 }
@@ -36,19 +37,31 @@
     section#login 
     {
         width: 950px;
+        height: 310px;
     }
 
     div#img 
     {
         background-image: url(../imagens/Computador.jpg);
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario 
     {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario h1 
+    {
+        font-size: 2em;
+    }
+
+    div#formulario p
+    {
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
