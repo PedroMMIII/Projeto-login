@@ -1,17 +1,4 @@
 @charset "UTF-8";
-/*
-    Paleta de cores mobile
-    preto: #000407
-    bege: #DCDCD2
-    branco: #E3E4DF
-    azul1: #AEC4D9
-    azul2: #96C2DA
-*/
-:root 
-{
-    --azul1: #AEC4D9;
-    --azul2: #96C2DA;
-}
 
 *
 {
@@ -23,7 +10,7 @@
 
 body, html 
 {
-    background: linear-gradient(to right,var(--azul1), var(--azul2));
+    background-color: #1E241A;
     height: 100vh;
     width: 100vw;
 }
@@ -46,6 +33,9 @@ section#login
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
 }
 
 div#img 
