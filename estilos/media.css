@@ -64,4 +64,30 @@
         font-size: 1em;
         margin: 20px 0px;
     }
+
+    div.campo 
+    {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+    }
+
+    div.campo input 
+    {
+        background-color: #94cfcd;
+    }
+
+    form input[type=submit] 
+    {
+        background-color: #49a09d;
+    }
+
+    form input[type=submit]:hover 
+    {
+        background-color: #2d6462;
+    }
+
+    form button:hover
+    {
+        background-color: #6cd3cf;
+    }
 }
